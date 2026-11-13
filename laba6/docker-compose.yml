@@ -1,0 +1,7 @@
+services:
+  transport-service:
+    build: .
+    container_name: transport_app_container
+    ports:
+      - "8000:8000"
+    restart: always
